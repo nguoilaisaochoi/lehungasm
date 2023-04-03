@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+    <title>Visit Vietnam: Trang web du lịch của Việt Nam</title>
+    <link rel="icon" href="./img_vd/faviconV2.png" />
+  </head>
+  <body>
+    <div id="header">
+      <img id="logo" src="./img_vd/logo.jpg" alt="" />
+      <a href="#" onclick="showmenu()"><img id="vmenu" src="./img_vd/navmenu.jpg" /></a>
+      <div id="menu">
+        <li id="menucon">Sống trọn vẹn tại Việt Nam</li>
+        <li id="menucon">Địa điểm để đi</li>
+        <li id="menucon">Những việc cần làm</li>
+        <li id="menucon">Lên kế hoạch cho chuyến đi</li>
+        <li id="menucon">Du lịch xanh</li>
+        <li id="menucon">Ưu đãi du lịch</li>
+        <li id="menucon" onclick="addlang()" style="cursor: pointer">VI</li>
+        <li id="lang"><p style="margin-top: 10px">日本語</p></li>
+      </div>
+    </div>
+    <div id="vid">
+      <video width="100%" autoplay muted loop src="./img_vd/1.mp4"></video>
+    </div>
+    <div id="content">
+      <div id="cn1">
+        <p id="start">SỐNG TRỌN VẸN TẠI VIỆT NAM</p>
+        <p>Thiên nhiên ngoạn mục. Ẩm thực đặc biệt. Đa dạng văn hóa. Dịch vụ xuất sắc.</p>
+        <p>
+          Việt Nam đã mở cửa trở lại hoàn toàn cho du lịch quốc tế mà không hạn chế Covid-19 (Không
+          giấy chứng nhận tiêm chủng, không yêu cầu xét nghiệm, không cách ly, không khai báo y tế)
+          và khôi phục chính sách thị thực, thủ tục xuất nhập cảnh như trước Covid-19.
+        </p>
+        <p>
+          Giờ đây, bạn có thể tự do khám phá và tận hưởng nhiều điểm đến thiên nhiên hoang dã khác
+          nhau như đá vôi núi non, ruộng bậc thang xanh mướt và những bãi biển cát trắng. Ngày lễ
+          đang đến, hãy để Tránh xa tất cả.
+        </p>
+        <p>
+          Tham gia vào các điểm tham quan, âm thanh và hương vị mới. Tận hưởng những trải nghiệm
+          thực sự đáng nhớ. Hãy Khám phá, thư giãn và vui chơi. Sống trọn vẹn tại Việt Nam.
+        </p>
+      </div>
+      <div id="cn2">
+        <div id="cn21">
+          <a href="./ninhbinh.html" id="big">
+            <img src="./img_vd/cn21.jpg" alt="" />
+            <div id="tt">
+              <div id="tt1"><p>Văn hoá</p></div>
+              <div id="tt2">
+                <p>Hướng dẫn viên về các tour du lịch bằng thuyền của Ninh Bình</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div id="cn22">
+          <div id="big">
+            <img src="./img_vd/cn22.jpg" alt="" />
+            <div id="tt">
+              <div id="tt1"><p>Văn hoá</p></div>
+              <div id="tt2">
+                <p>Tận hưởng không gian ngoài trời tuyệt vời ở Thành phố Hồ Chí Minh</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cn23">
+          <div id="big">
+            <img src="./img_vd/cn23.jpg" alt="" />
+            <div id="tt">
+              <div id="tt1"><p>Luxury</p></div>
+              <div id="tt2">
+                <p>Sự thoải mái kết hợp văn hóa tại các khách sạn sang trọng của Hà Nội</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cn24">
+          <div id="big">
+            <img src="./img_vd/cn24.jpg" alt="" />
+            <div id="tt">
+              <div id="tt1"><p>Thiên nhiên</p></div>
+              <div id="tt2">
+                <p>Bình Thuận: Thiên đường thác nước</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cn25">
+          <div id="big">
+            <img src="./img_vd/cn25.jpg" alt="" />
+            <div id="tt">
+              <div id="tt1"><p>Mạo hiểm</p></div>
+              <div id="tt2">
+                <p>Vũng Tàu - Xứ sở thần tiên tham quan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="whaton">
+      <p style="font-size: 220%; color: #b2910e; text-transform: uppercase; font-weight: bold">
+        What on?
+      </p>
+      <p style="font-size: 150%; letter-spacing: 1px; font-weight: 340">
+        Xem các sự kiện sắp tới tại Việt Nam
+      </p>
+      <div id="event">
+        <div id="e1" class="ev">
+          <img src="./img_vd/e1.jpg" />
+          <div id="info">
+            <p>11 Tháng Ba 2023 - 13 Tháng Ba 2023</p>
+            <p id="info2">Lễ hội hoa Ban</p>
+          </div>
+        </div>
+        <div id="e2" class="ev">
+          <img src="./img_vd/e2.jpeg" />
+          <div id="info">
+            <p>10 Tháng Ba 2023 - 14 Tháng Ba 2023</p>
+            <p id="info2">Lễ hội cà phê Buôn Ma Thuột</p>
+          </div>
+        </div>
+        <div id="e3" class="ev">
+          <img src="./img_vd/e3.jpeg" />
+          <div id="info">
+            <p>06 Tháng Ba 2023 - 11 Tháng Ba 2023</p>
+            <p id="info2">Lễ hội chùa Hương</p>
+          </div>
+        </div>
+        <div id="e4" class="ev">
+          <img src="./img_vd/e4.jpeg" />
+          <div id="info">
+            <p>08 Tháng Ba 2023 - 10 Tháng Ba 2023</p>
+            <p id="info2">Lễ hội Đà Nẵng Quán Thế Âm</p>
+          </div>
+        </div>
+      </div>
+      <div id="allev">
+        <div id="allev1">
+          <p>Xem tất cả sự kiện</p>
+        </div>
+      </div>
+    </div>
+    <div id="traveltips">
+      <p id="txttravel">Travel Tips</p>
+      <p id="txtprepare">Chuẩn bị cho chuyến đi của bạn với những bài viết thiết thực này</p>
+      <div id="TIPS">
+        <div id="tips">
+          <img id="t1" src="./img_vd/Visas_1.jpg" alt="" />
+          <p>Thị thực</p>
+        </div>
+        <div id="tips">
+          <img id="t2" src="./img_vd/Transport_1.jpg" alt="" />
+          <p>Vận tải</p>
+        </div>
+        <div id="tips">
+          <img id="t3" src="./img_vd/Weather white_1.jpg" alt="" />
+          <p>Thời tiết</p>
+        </div>
+        <div id="tipss">
+          <img id="t4" src="./img_vd/Health and Safety_0.jpg" alt="" />
+          <p>An toàn</p>
+        </div>
+        <div id="tips">
+          <img id="t5" src="./img_vd/History white_0.jpg" alt="" />
+          <p>Lịch sử</p>
+        </div>
+      </div>
+    </div>
+    <div id="sharestory">
+      <p id="txtshare">SHARE YOUR STORY</p>
+      <p id="txttag">
+        Gắn thẻ những khoảnh khắc
+        <span style="color: #a5190e; cursor: pointer">#LiveFullyinVietnam</span> đẹp nhất của bạn
+        vào Ảnh minh họa
+      </p>
+      <div id="story">
+        <img id="s1" src="./img_vd/s1.jpg" />
+        <img id="s2" src="./img_vd/s2.jpg" />
+        <img id="s3" src="./img_vd/s3.jpg" />
+        <img id="s4" src="./img_vd/s4.jpg" />
+        <img id="s5" src="./img_vd/s5.jpg" />
+    </div>
+          <div id="viewmore">
+        <div id="viewmore1">
+          <p>Xem thêm</p>
+        </div>
+      </div>
+    <!--FOOTER-->
+    <div id="footer">
+      <div id="ctfooter">
+        <div id="ctfooter1">
+          <li style="color: #b2910e; font-weight: bold; letter-spacing: 1px; font-size: 110%">
+            USEFUL LINKS
+          </li>
+          <li>Visas for Vietnam</li>
+          <li>Beginner Guide</li>
+          <li>FAQs</li>
+          <li>Sitemap</li>
+          <li>News & Media</li>
+          <li>Industry Resources</li>
+        </div>
+        <div id="ctfooter2">
+          <img src="./img_vd/logo-bw.png" />
+          <p style="margin-top: 10px">
+            Đây là trang web giả của Tổng cục Du lịch Việt Nam. Ghé thăm vietnam.travel để có thêm
+            cảm hứng du lịch.
+          </p>
+        </div>
+      </div>
+      <div id="about">
+        <li>© Ps28755_NGUYEN LE HUNG</li>
+        <li>Email: hungnlps28755@fpt.edu.vn</li>
+        <li>Privacy Policy</li>
+        <li>Terms & Conditions</li>
+      </div>
+    </div>
+  </body>
+</html>

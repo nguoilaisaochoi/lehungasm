@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+    <link rel="icon" href="./img_vd/faviconV2.png" />
+    <title>Hướng dẫn các tour du lịch bằng thuyền của Ninh Bình</title>
+  </head>
+  <body class="text-justify">
+    <style>
+      body {
+        letter-spacing: 1px;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+    <div id="header">
+      <a href="./index.html"><img id="logo" src="./img_vd/logo.jpg" alt="" /></a>
+      <a href="#" onclick="showmenu()"><img id="vmenu" src="./img_vd/navmenu.jpg" /></a>
+      <div id="menu">
+        <li id="menucon">Sống trọn vẹn tại Việt Nam</li>
+        <li id="menucon">Địa điểm để đi</li>
+        <li id="menucon">Những việc cần làm</li>
+        <li id="menucon">Lên kế hoạch cho chuyến đi</li>
+        <li id="menucon">Du lịch xanh</li>
+        <li id="menucon">Ưu đãi du lịch</li>
+        <li id="menucon" onclick="addlang()" style="cursor: pointer">VI</li>
+        <li id="lang"><p style="margin-top: 10px">日本語</p></li>
+      </div>
+    </div>
+    <div>
+      <img style="width: 100%" src="./img_vd/cn21.jpg" alt="" />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-9 mx-auto">
+          <div class="w-100 pt-4 pb-4">
+            <div class="d-flex justify-content-end">
+              <i class="fa-brands fa-facebook fa-lg mx-1" style="color: #b2910e"></i>
+              <i class="fa-brands fa-pinterest fa-lg mx-1" style="color: #b2910e"></i>
+              <i
+                class="fa-brands fa-square-twitter fa-lg mx-1 rounded-pill"
+                style="color: #b2910e"
+              ></i>
+              <i class="fa-solid fa-square-envelope fa-lg mx-1" style="color: #b2910e"></i>
+            </div>
+          </div>
+          <div class="border-bottom pb-3">
+            Đi về phía bắc trong kỳ nghỉ của bạn ở Việt Nam? Bạn chỉ đơn giản là không thể bỏ lỡ một
+            chuyến đi đến Ninh Bình Vì nó cách Hà Nội khoảng 100km, nó hoàn hảo cho một điểm dừng
+            chân cuối tuần. Và trong khi nó không ở gần biển, nhiều tuyến đường thủy của nó được
+            khám phá tốt nhất trong một tour du lịch bằng thuyền độc đáo.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-9 mx-auto">
+          <p class="my-3 fw-bold h5" style="color: #9e0b0f">
+            Một thiên đường tự nhiên, giàu lịch sử
+          </p>
+          <p>
+            Rõ ràng, khi nhắc đến Ninh Bình là địa điểm du lịch, họ thực sự muốn nói đến vùng thiên
+            nhiên phía Tây thành phố Ninh Bình. Đặc biệt, họ đang đề cập đến thị trấn Tam Cốc và
+            Quần thể danh lam thắng cảnh Tràng An của tỉnh, đã được UNESCO công nhận là Di sản Thế
+            giới từ năm 2014. Khu du lịch sinh thái Tràng An ở trung tâm còn Tam Cốc ở phía Nam.
+            Phía bắc cũng là nơi bạn sẽ tìm thấy cố đô, Hoa Lư.
+          </p>
+          <div>
+            <img class="w-100" src="./img_vd/cn21.jpg" alt="" />
+          </div>
+          <br />
+          <p>
+            Tổng cộng, quần thể cảnh quan Tràng An rộng 6.226ha bao gồm ba khu bảo tồn được liên kết
+            bởi rừng thường xanh, hồ và sông len lỏi giữa những ngọn núi đá vôi. Khu vực này tự hào
+            có hơn 300 loại thực vật quý hiếm và kỳ lạ, cộng với các loài động vật có nguy cơ tuyệt
+            chủng.
+          </p>
+          <p>
+            Với các thung lũng sâu đặc biệt giữa các núi đá vôi dốc, khu vực này thật kỳ diệu. Những
+            ngọn núi đầy hang động, và nhiều thung lũng chứa đầy những tuyến đường thủy xinh đẹp và
+            những cánh đồng màu mỡ đầy lúa và các loại cây trồng khác.
+          </p>
+          <p>
+            Hoa Lư, cách Hà Nội 100km, từng là vương quốc của Đại Cồ Việt, trị vì trong triều đại
+            nhà Đinh và Lê. Nó được biết đến như là 'thủ đô đầu tiên của Việt Nam', và có nhiều di
+            tích lịch sử và đền thờ linh thiêng. Trong khi thủ đô đã ở đây vào thế kỷ thứ 9 và thứ
+            10, UNESCO tuyên bố rằng "việc khám phá các hang động ở các độ cao khác nhau đã tiết lộ
+            dấu vết khảo cổ học về hoạt động của con người trong một khoảng thời gian liên tục hơn
+            30.000 năm".
+          </p>
+          <p>
+            UNESCO cũng cho biết: "Du khách, được truyền tải trong những chiếc thuyền buồm truyền
+            thống do hướng dẫn viên địa phương chèo thuyền, trải nghiệm sự kết nối mật thiết với môi
+            trường tự nhiên và cảm giác thư giãn của sự thanh thản và an toàn. Những ngọn núi hùng
+            vĩ, những hang động bí mật và những địa điểm linh thiêng ở Tràng An đã truyền cảm hứng
+            cho mọi người qua vô số thế hệ".
+          </p>
+          <div>
+            <img width="100%" src="./img_vd/cn211.jpg" alt="" />
+          </div>
+          <br />
+          <p class="my-3 fw-bold h5" style="color: #9e0b0f">Tam Cốc hay Tràng An?</p>
+          <p>
+            Hai địa điểm đẹp nhất ở Ninh Bình chắc chắn là Tam Cốc và Tràng An. Du khách thường tự
+            hỏi, tôi nên tham gia tour du lịch bằng thuyền chính nào? Vâng, Tam Cốc gần trung tâm du
+            lịch hơn và là lựa chọn nhanh hơn, thân thiện với ngân sách hơn.
+          </p>
+          <p>
+            Nhưng cả hai nơi đều có kỹ thuật 'chèo chân' đặc biệt, khéo léo mà những người chèo
+            thuyền đã phát triển để giảm bớt căng thẳng cho tay, cánh tay và lưng của họ
+          </p>
+          <p class="my-3 fw-bold h5" style="color: #9e0b0f">Các tour du lịch bằng thuyền Tam Cốc</p>
+          <p>
+            Vì đây là khu du lịch chính nên các tour du lịch bằng thuyền từ đây rất phổ biến. Vì các
+            tuyến đường ngắn hơn, tùy chọn này phù hợp với du khách có ít thời gian hơn.
+          </p>
+          <p>
+            Mua vé tại bến tàu Văn Lâm. Sau đó, bạn sẽ uốn lượn yên bình giữa những cánh đồng tươi
+            tốt và những ngọn núi đá vôi ấn tượng, thường dừng lại ở ba hang động mà cái tên 'Tam
+            Cốc' đề cập đến: Ca, Hải và Ba. Phong cảnh tuyệt đẹp trong mùa thu hoạch lúa, đặc biệt
+            là khi lúa đã chuyển sang màu vàng. Để xem một số tuyến đường từ một điểm thuận lợi cao,
+            hãy leo lên điểm quan sát tại Hang Múa
+          </p>
+          <div>
+            <img width="100%" src="./img_vd/cn212.jpg" alt="" />
+          </div>
+          <br />
+          <p>
+            Xin lưu ý, hướng dẫn viên của bạn sẽ cho bạn biết liệu hai hoặc bốn người có thể chia sẻ
+            thuyền hay không. Các tour du lịch mất từ hai giờ cho một chuyến đi khứ hồi.
+          </p>
+          <p class="my-3 fw-bold h5" style="color: #9e0b0f">
+            Các tour du lịch bằng thuyền Tràng An
+          </p>
+          <p>
+            Có nhiều hơn một ngày? Du lịch Tràng An, một vùng quê cách Tam Cốc khoảng 20 phút. Tại
+            đây bạn có thể chọn từ ba tour du lịch bằng thuyền được coi là kịch tính và bổ ích hơn
+            tuyến đường Tam Cốc.
+          </p>
+          <div>
+            <img width="100%" src="./img_vd/cn213.jpg" alt="" />
+          </div>
+          <br />
+          <p>
+            Tại sao? Bởi vì họ đi qua một khu vực hoang sơ, được bảo vệ với đầy đủ các hang động và
+            đền thờ ấn tượng. Tràng An là nơi để đến xem các di tích lịch sử và văn hóa linh thiêng,
+            chẳng hạn như chùa Bảo Hiệu, trên đường đi. Bạn có thể dừng lại ở các điểm tham quan,
+            những ngọn núi lớn hơn và các hang động dài hơn. Có ba lựa chọn tour du lịch bằng thuyền
+            chính:
+          </p>
+          <p>
+            Lựa chọn thứ nhất (3-4 giờ): Đưa bạn theo lộ trình vòng tròn đến: Đền Trinh, Hang Tối,
+            Hang Ánh Sáng, Hang Nau Ruồi, Đền Trần, Hang Ba Giót, Hang Seo, Hang Sơn Dương, Dinh
+            Không, Chùa Bảo Hiếu, Hang Trần và Hang Quý Hậu.
+          </p>
+          <p>
+            Lựa chọn hai (2-3 giờ): Tham quan Hang Lâm, Đền Cao Sơn, Hang Vàng, Hang Thanh Truột,
+            Núi Địa Linh, Đền Suối Tiên, Hang Dài và Hạnh Cung Vũ Lâm (Địa điểm Bậc thang Hoàng gia
+            Vũ Lâm). Đây là một trong hai tour du lịch đến nơi quay các cảnh trong bộ phim Kong:
+            Skull Island.
+          </p>
+          <p>
+            Lựa chọn thứ ba (3 giờ): Chuyến tham quan này khám phá một hang động lớn và một địa điểm
+            từ Kong: Skull Island. Bạn đi đến đền Trinh, hang Đấm, hang Mây (Mây), đền Suối Tiên,
+            núi Địa Linh, hang Dài và Hạnh Cung Vũ Lâm (Bậc thang Hoàng gia Vũ Lâm).
+          </p>
+          <p>Các tour du lịch bằng thuyền khác trong khu vực</p>
+          <p>
+            Tò mò về hang động? Đi thuyền tham quan hang Thiên Hà, 'hang động thiên hà'. Chiêm
+            ngưỡng nhũ đá trong hang động dài 700m này, bao gồm các khu vực khô và ẩm ướt. Dấu hiệu
+            cư trú của người Việt cổ đại đã được tìm thấy ở đây.
+          </p>
+          <div>
+            <img width="100%" src="./img_vd/cn214.png" alt="" />
+          </div>
+          <br />
+          <p>
+            Những người ngắm chim không nên bỏ lỡ tour ngắm chim qua Vườn chim Thung Nham. Phát hiện
+            các loài như chích lửa, sáo đá và cò trong khu vực bao gồm rừng, vườn cây ăn quả và hoa.
+          </p>
+          <div>
+            <img width="100%" src="./img_vd/cn215.jpg" alt="" />
+          </div>
+          <br />
+          <p>
+            Để hòa mình vào thiên nhiên, hãy tham quan làn nước trong vắt và hiền hòa của Khu bảo
+            tồn thiên nhiên Vân Long, một khu vực đa dạng sinh học trong danh sách xanh của Ủy ban
+            Danh sách xanh Toàn cầu (IUCN). Du lịch qua các vùng đất ngập nước, khám phá các hang
+            động và tìm kiếm các loài động thực vật quý giá, chẳng hạn như Voọc Delacour, sơn dương,
+            diệc ao Trung Quốc và khỉ đuôi gốc. Các địa điểm linh thiêng trong khu bảo tồn bao gồm
+            chùa Dịch Long.
+          </p>
+          <div>
+            <img width="100%" src="./img_vd/cn216.jpg" alt="" />
+          </div>
+          <br />
+          <p>
+            Những lựa chọn ít được biết đến này không bận rộn như các tour du lịch Tam Cốc và Tràng
+            An.
+          </p>
+          <p class="fw-bold text-decoration-underline">
+            Lời khuyên khi tham gia các tour du lịch bằng thuyền của Ninh Bình:
+          </p>
+          <li>Mặc kem chống nắng và đội mũ</li>
+          <li>
+            Nếu bạn không thích đông đúc, hãy tránh những thời điểm cao điểm trong năm (như Tết, Tết
+            Nguyên đán)
+          </li>
+          <li>Giữ nước</li>
+          <li>Thực hiện theo các quy tắc an toàn và luôn mặc áo phao của bạn</li>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div id="ctfooter">
+        <div id="ctfooter1">
+          <li style="color: #b2910e; font-weight: bold; letter-spacing: 1px; font-size: 110%">
+            USEFUL LINKS
+          </li>
+          <li>Visas for Vietnam</li>
+          <li>Beginner Guide</li>
+          <li>FAQs</li>
+          <li>Sitemap</li>
+          <li>News & Media</li>
+          <li>Industry Resources</li>
+        </div>
+        <div id="ctfooter2">
+          <img src="./img_vd/logo-bw.png" />
+          <p style="margin-top: 10px">
+            Đây là trang web giả của Tổng cục Du lịch Việt Nam. Ghé thăm vietnam.travel để có thêm
+            cảm hứng du lịch.
+          </p>
+        </div>
+      </div>
+      <div id="about">
+        <li>© Ps28755_NGUYEN LE HUNG</li>
+        <li>Email: hungnlps28755@fpt.edu.vn</li>
+        <li>Privacy Policy</li>
+        <li>Terms & Conditions</li>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+    integrity="sha384-okDIHer9A1XTnl1YGF32dhZrCi0Iw/J8WMD64yEtjzGzfHlFv7DiIvg+fjL2Y26r"
+    crossorigin="anonymous"
+  ></script>
+</html>
