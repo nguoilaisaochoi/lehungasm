@@ -19,14 +19,13 @@
     <link rel="icon" href="./img_vd/faviconV2.png" />
     <title>Hướng dẫn các tour du lịch bằng thuyền của Ninh Bình</title>
   </head>
-  <body class="text-justify">
-    <style>
-      body {
-        letter-spacing: 1px;
-        text-align: justify;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-    </style>
+  <style>
+    body {
+      letter-spacing: 1px;
+      text-align: justify;
+    }
+  </style>
+  <body class="text-justify bg-light">
     <div id="header">
       <a href="./index.html"><img id="logo" src="./img_vd/logo.jpg" alt="" /></a>
       <a href="#" onclick="showmenu()"><img id="vmenu" src="./img_vd/navmenu.jpg" /></a>
@@ -34,15 +33,14 @@
         <li id="menucon">Sống trọn vẹn tại Việt Nam</li>
         <li id="menucon">Địa điểm để đi</li>
         <li id="menucon">Những việc cần làm</li>
-        <li id="menucon">Lên kế hoạch cho chuyến đi</li>
+        <li id="menucon">Kế hoạch cho chuyến đi</li>
         <li id="menucon">Du lịch xanh</li>
-        <li id="menucon">Ưu đãi du lịch</li>
-        <li id="menucon" onclick="addlang()" style="cursor: pointer">VI</li>
-        <li id="lang"><p style="margin-top: 10px">日本語</p></li>
+        <li id="menucon" onclick="scrollToBottom()">Tin tức du lịch</li>
+        <a href="./contact.html" id="menucon" style="text-decoration: none">Liên hệ</a>
       </div>
     </div>
     <div>
-      <img style="width: 100%" src="./img_vd/cn21.jpg" alt="" />
+      <img style="width: 100%" src="./img_vd/cn2111.jpg" alt="" />
     </div>
     <div class="container">
       <div class="row">
@@ -222,7 +220,7 @@
             Nguyên đán)
           </li>
           <li>Giữ nước</li>
-          <li>Thực hiện theo các quy tắc an toàn và luôn mặc áo phao của bạn</li>
+          <li class="pb-3">Thực hiện theo các quy tắc an toàn và luôn mặc áo phao của bạn</li>
         </div>
       </div>
     </div>
@@ -240,7 +238,9 @@
           <li>Industry Resources</li>
         </div>
         <div id="ctfooter2">
-          <img src="./img_vd/logo-bw.png" />
+          <a href="#" onclick="return false;"
+            ><img onclick="ToTop();return false;" src="./img_vd/logo-bw.png"
+          /></a>
           <p style="margin-top: 10px">
             Đây là trang web giả của Tổng cục Du lịch Việt Nam. Ghé thăm vietnam.travel để có thêm
             cảm hứng du lịch.

@@ -14,11 +14,9 @@ function showmenu() {
     abc.classList.add("active");
   }
 }
-function addlang() {
-  var abc = document.getElementById("lang");
-  if (abc.classList.contains("active")) {
-    abc.classList.remove("active");
-  } else {
-    abc.classList.add("active");
-  }
+function scrollToBottom() {
+  document.getElementById("cn2").scrollIntoView({ behavior: "smooth" });
+}
+function ToTop() {
+  document.getElementById("header").scrollIntoView({ behavior: "smooth" });
 }

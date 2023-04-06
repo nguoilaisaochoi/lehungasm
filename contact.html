@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+    <title>Visit Vietnam: Trang web du lịch của Việt Nam</title>
+    <link rel="icon" href="./img_vd/faviconV2.png" />
+  </head>
+  </style>
+  <body>
+    <div id="header">
+      <a href="./index.html"><img id="logo" src="./img_vd/logo.jpg" alt="" /></a>
+      <a href="##" onclick="showmenu()"><img id="vmenu" src="./img_vd/navmenu.jpg" /></a>
+      <div id="menu">
+        <li id="menucon">Sống trọn vẹn tại Việt Nam</li>
+        <li id="menucon">Địa điểm để đi</li>
+        <li id="menucon">Những việc cần làm</li>
+        <li id="menucon">Kế hoạch cho chuyến đi</li>
+        <li id="menucon">Du lịch xanh</li>
+        <li id="menucon" onclick="scrollToBottom()">Tin tức du lịch</li>
+        <a href="./contact.html" id="menucon" style="text-decoration: none">Liên hệ</a>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <p class="text-center mt-5 text-uppercase h1 fw-bold text-light">Contact Us</p>
+      <div class="row">
+        <p class="col-lg-12 mx-auto text-center text-light mt-4">
+          Nhận những câu chuyện du lịch mới từ Việt Nam mỗi tháng một lần trong hộp thư đến của bạn.
+        </p>
+        <div class="col-12 col-lg-5 text-light">
+          <div class="d-flex ms-2 my-5">
+            <img src="./img_vd/pin-point.svg" alt="" />
+            <div class="d-flex flex-column mt-4 mx-3">
+              <span class="h5">Địa chỉ </span>
+              <p class="">Tòa nhà A, Số 285, đường B, phường C, quận 10, Thành phố Hồ Chí Minh</p>
+            </div>
+          </div>
+          <div class="d-flex ms-2 my-5bg-info">
+            <img src="./img_vd/phone-call.svg" alt="" />
+            <div class="d-flex flex-column mt-4 mx-3">
+              <span class="h5">Số điện thoại </span>
+              <p>502+</p>
+            </div>
+          </div>
+          <div class="d-flex ms-2 my-5">
+            <img src="./img_vd/email.svg" alt="" />
+            <div class="d-flex flex-column mt-4 mx-3">
+              <span class="h5">Email</span>
+              <p>abc@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-7">
+          <div class="col-sm-8 col-lg-7 bg-light d-flex flex-column p-5 mx-auto my-5">
+            <p class="text-center text-uppercase h5 mx-auto">Liên hệ với chúng tôi</p>
+            <div class="form-outline my-3">
+              <input type="text" id="typeText" class="form-control form-control-lg" />
+              <label class="form-label" for="typeText">Họ tên</label>
+            </div>
+            <div class="form-outline my-3">
+              <input type="text" id="typeText" class="form-control form-control-lg" />
+              <label class="form-label" for="typeText">Email</label>
+            </div>
+            <div class="form-outline my-3">
+              <input type="text" id="typeText" class="form-control form-control-lg" />
+              <label class="form-label" for="typeText">Số điện thoại</label>
+            </div>
+            <button type="button" class="btn btn-info my-3 mx-auto w-50">Gửi</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div id="ctfooter">
+        <div id="ctfooter1">
+          <li style="color: #b2910e; font-weight: bold; letter-spacing: 1px; font-size: 110%">
+            USEFUL LINKS
+          </li>
+          <li>Visas for Vietnam</li>
+          <li>Beginner Guide</li>
+          <li>FAQs</li>
+          <li>Sitemap</li>
+          <li>News & Media</li>
+          <li>Industry Resources</li>
+        </div>
+        <div id="ctfooter2">
+          <a href="#" onclick="return false;"
+            ><img onclick="ToTop();return false;" src="./img_vd/logo-bw.png"
+          /></a>
+          <p style="margin-top: 10px">
+            Đây là trang web giả của Tổng cục Du lịch Việt Nam. Ghé thăm vietnam.travel để có thêm
+            cảm hứng du lịch.
+          </p>
+        </div>
+      </div>
+      <div id="about">
+        <li>© Ps28755_NGUYEN LE HUNG</li>
+        <li>Email: hungnlps28755@fpt.edu.vn</li>
+        <li>Privacy Policy</li>
+        <li>Terms & Conditions</li>
+      </div>
+    </div>
+  </body>
+  <style>
+    body {
+      width: 100%;
+      height: 100%;
+      background: url(./img_vd/bg\ contact2.jpg) no-repeat;
+      background-size: cover;
+    }
+  </style>
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"
+  ></script>
+
+</html>

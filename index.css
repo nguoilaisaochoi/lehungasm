@@ -6,6 +6,10 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
+  #totop {
+    position: relative;
+    z-index: 2;
+  }
   #header {
     position: relative;
     width: 100%;
@@ -45,9 +49,9 @@
     align-items: center;
     text-align: center;
   }
-  #ctfooter2 img {
+  #ctfooter2 a {
     margin-top: 10px;
-    width: 30%;
+    width: 100%;
     height: 35%;
   }
   #about {
@@ -63,11 +67,13 @@
     height: 20px;
   }
   #vid {
+    position: relative;
     width: 100%;
-    min-height: 100px;
+    min-height: 150px;
     overflow: hidden;
     z-index: 0;
   }
+
   #logo {
     position: relative;
     z-index: 1;
@@ -93,7 +99,7 @@
     display: block;
     flex-direction: column;
     width: 100%;
-    margin-top: -8px;
+    margin-top: -3%;
     height: 0px;
     background-color: white;
     overflow: hidden;
@@ -128,25 +134,6 @@
       height: 0px;
     }
   }
-  #lang {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    background-color: rgb(255, 255, 227);
-    height: 0px;
-    overflow: hidden;
-    transition: 0.2s ease;
-    text-decoration: none;
-    color: gray;
-  }
-  #lang.active {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    background-color: rgb(255, 255, 227);
-    height: 40px;
-    overflow: hidden;
-  }
   #menucon {
     display: flex;
     align-items: center;
@@ -162,7 +149,7 @@
     border-bottom: 1px solid gray;
   }
   #menucon:hover {
-    background-color: #80808039;
+    background-color: #d4d4d439;
     cursor: pointer;
     color: rgb(145, 0, 0);
   }
@@ -232,7 +219,7 @@
     transition: 0.2s ease;
   }
   #big {
-    width: 100%;
+    width: 95%;
     height: 100%;
     margin: auto;
     position: relative;
@@ -281,7 +268,6 @@
   #whaton {
     width: 100%;
     min-height: 667px;
-    background-color: white;
     text-align: center;
   }
   #event {
@@ -322,7 +308,7 @@
     text-align: left;
     margin-left: 10px;
     margin-top: 10px;
-    line-height: 22px;
+    line-height: 30px;
   }
   #info2 {
     font-weight: bold;
@@ -343,6 +329,7 @@
     background-repeat: no-repeat;
     background-position: 0 0, 100% 0, 100% 100%, 0 100%;
   }
+
   #allev1 {
     width: 98%;
     margin: auto;
@@ -398,7 +385,6 @@
     width: 100%;
     min-height: 100px;
     padding-bottom: 1%;
-    background-color: #ebebeb;
     text-align: center;
   }
   #txtshare {
@@ -466,9 +452,73 @@
   #cn25 {
     height: 300px;
   }
+  #header {
+    min-height: 75px;
+  }
+  #vmenu {
+    width: 8%;
+    margin: 1%;
+  }
+  #TIPS {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+
+  #t2,
+  #t3 {
+    width: 100%;
+  }
+  #t1 {
+    width: 90%;
+  }
+  #t4 {
+    width: 55%;
+  }
+  #t5 {
+    width: 80%;
+  }
+  #tips,
+  #tipss {
+    width: 13%;
+    height: 100px;
+    margin: auto;
+    transition: 0.2s ease;
+    cursor: pointer;
+  }
+  #tips p,
+  #tipss p {
+    font-size: 90%;
+  }
+  #menu {
+    margin-top: -7%;
+  }
+  #allev1 {
+    width: 98%;
+    height: 83%;
+    display: flex;
+  }
+  #allev1 p {
+    margin: auto;
+  }
+  #viewmore1 {
+    width: 98%;
+    height: 83%;
+    display: flex;
+  }
+  #viewmore1 p {
+    margin: auto;
+  }
 }
 /*--------------TABLET--------------------*/
 @media screen and (min-width: 768px) {
+  #header {
+    min-height: 110px;
+  }
+  #vmenu {
+    width: 8%;
+    margin: 3%;
+  }
   #footer {
     width: 100%;
     min-height: 364px;
@@ -500,15 +550,22 @@
   #ctfooter2 p {
     margin-left: 50px;
   }
-  #ctfooter2 img {
-    width: 12%;
+  #ctfooter2 a {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
     height: 40%;
+    cursor: default;
+  }
+  #ctfooter2 img {
+    cursor: pointer;
   }
   #menu {
-    margin-top: -15px;
+    margin-top: -2%;
   }
   #menucon {
     height: 60px;
+    font-size: 140%;
   }
   @keyframes animate {
     0% {
@@ -527,7 +584,8 @@
     }
   }
   #start {
-    font-size: 350%;
+    margin-top: 40px;
+    font-size: 260%;
   }
   #cn1 {
     width: 90%;
@@ -588,6 +646,9 @@
   #story img {
     width: 100%;
     margin-bottom: 0;
+  }
+  #big {
+    width: 100%;
   }
   #cn22 #big img,
   #cn23 #big img {
@@ -653,6 +714,7 @@
     margin: auto;
   }
   #txtshare {
+    margin-top: 20px;
     font-size: 220%;
   }
   #txttag {
@@ -673,11 +735,19 @@
   }
   #tips,
   #tipss {
-    width: 12%;
+    width: 14%;
     height: 100px;
     margin: auto;
     transition: 0.2s ease;
     cursor: pointer;
+  }
+  #tips p,
+  #tipss p {
+    font-size: 90%;
+  }
+  #txtprepare {
+    font-size: 120%;
+    margin-bottom: 3%;
   }
   #t1,
   #t2,
@@ -705,23 +775,28 @@
   #ctfooter1 li {
     line-height: 30px;
   }
-  #ctfooter2 img {
-    width: 35%;
-  }
 }
 /*--------------DESKTOP--------------------*/
 @media screen and (min-width: 992px) {
   #header {
     width: 100%;
+    min-height: 0;
     height: 90px;
+  }
+  #start {
+    font-size: 350%;
   }
   #ctfooter {
     margin: auto;
     width: 80%;
   }
-  #ctfooter2 img {
-    width: 16%;
-    height: 40%;
+  #ctfooter2 a {
+    width: 100%;
+    height: auto;
+  }
+  #ctfooter2 p {
+    font-size: 110%;
+    text-align: justify;
   }
   #ctfooter1 {
     position: relative;
@@ -741,39 +816,39 @@
   #logo {
     width: 10%;
   }
-  #menu {
+  #menu,
+  #menu.active {
     display: inline-flex;
     height: 90px;
     margin: 0;
-    width: 80%;
+    width: 83%;
     margin-left: 20px;
     flex-direction: row;
     background-color: transparent;
     overflow: visible;
+    border-bottom: none;
   }
   #menucon {
+    position: relative;
     height: 90px;
-    width: 150px;
+    min-width: 100px;
     font-size: 80%;
     border-bottom: none;
     text-align: center;
+    transition: 0.2s ease;
   }
-  #lang {
-    z-index: 1;
-    position: relative;
-    top: 90px;
-    right: 12.4%;
-    width: 150px;
-    background-color: white;
+  #menucon::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: #a5190e;
+    transition: 0.3s ease;
   }
-  #lang.active {
-    z-index: 1;
-    position: relative;
-    top: 90px;
-    right: 12.4%;
-    width: 150px;
-    background-color: white;
-    border-bottom: 5px solid #a5190e;
+  #menucon:hover:after {
+    width: 100%;
   }
   #cn1 {
     width: 90%;
@@ -827,7 +902,7 @@
     scale: 1.1;
   }
   #allev {
-    width: 15%;
+    width: 20%;
   }
   #allev1 {
     width: 97%;
@@ -871,6 +946,7 @@
   }
 
   #sharestory {
+    max-height: 700px;
     position: relative;
   }
 
